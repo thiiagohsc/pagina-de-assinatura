@@ -1,6 +1,8 @@
 body{
-    background-image: url('./images/pattern-background-desktop.svg');
-    background-repeat: repeat-x;
+    background-color: #D6E1FF;
+    font-family: "Red Hat Display";
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -15,18 +17,24 @@ body{
 
 #container{
     background-color: rgb(255,255,255);
-    width: 28em;
-    
+    width: 28em; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    border-radius: 20px;
 }
 
 #illustration{
     width: 28em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.text{
+#valor{
     text-align: center;
-    margin: 40px;
     color: rgb(183, 185, 200);
+    
 }
 
 #text{
@@ -46,16 +54,19 @@ body{
     height: 50px;
 }
 
-#container2{
+#box_valor{
     background-color: rgb(248, 249, 254);
     width: 21em;
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 #cancel_order{
     color: rgb(145, 152, 180);
     font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 button{
