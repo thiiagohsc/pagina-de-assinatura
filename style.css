@@ -33,6 +33,8 @@ body{
 
 #valor{
     color: rgb(183, 185, 200);
+    float: left;
+    margin-bottom: 10px;
 }
 
 #text{
@@ -86,4 +88,5 @@ button{
     font-weight: bold;    
     border-radius: 20px;
     margin-left: 55px;
+    font-family: "Red Hat Display";
 }
