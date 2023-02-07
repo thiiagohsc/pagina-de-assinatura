@@ -57,7 +57,8 @@ body{
 
 #change{
     padding-top: 40px;
-
+    text-decoration:none;
+    font-family: "Red Hat Display";
 }
 
 
@@ -78,8 +79,31 @@ body{
     text-align: center;
 }
 
+#cancel_order:hover{
+    color: rgb(112, 116, 130);
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
 button{
     background-color: rgb(56, 42, 225);
+    color: white;
+    width: 21rem;
+    border-radius: 9px;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: bold;    
+    border-radius: 20px;
+    margin-left: 55px;
+    font-family: "Red Hat Display";
+}
+
+button:hover{
+    background-color: rgba(57, 42, 225, 0.915);
+    cursor: pointer;
     color: white;
     width: 21rem;
     border-radius: 9px;
